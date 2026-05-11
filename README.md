@@ -10,6 +10,8 @@ YukkuriMovieMaker4（YMM4）上で動作する、**映像の輝度に応じて�
 HLSL ピクセルシェーダーを Direct2D カスタムエフェクトとして実装しており、GPU 上でのリアルタイムレンダリングが可能です。
 カラーグレーディングの補間処理は知覚的に均一な **Oklab 色空間** 上で行われるため、自然で滑らかな色調変化が得られます。
 中間調位置・不透明度・合成モードはキーフレームアニメーションに対応しています。
+
+![Image](https://github.com/routersys/YMM4-Tritone/blob/main/docs/Tritone.png)
  
 ---
  
