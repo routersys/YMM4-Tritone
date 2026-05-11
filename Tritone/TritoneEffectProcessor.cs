@@ -4,7 +4,6 @@ using D2DEffects = Vortice.Direct2D1.Effects;
 using YukkuriMovieMaker.Commons;
 using YukkuriMovieMaker.Player.Video;
 using YukkuriMovieMaker.Player.Video.Effects;
-using YukkuriMovieMaker.Project;
 using YukkuriMovieMaker.Player;
 
 namespace Tritone;
@@ -24,7 +23,7 @@ internal sealed class TritoneEffectProcessor : VideoEffectProcessorBase
     private Color _highlightColor;
     private double _midPosition;
     private float _opacity;
-    private Project.Blend _blendMode;
+    private YukkuriMovieMaker.Project.Blend _blendMode;
 
     public TritoneEffectProcessor(IGraphicsDevicesAndContext devices, TritoneEffect item)
         : base(devices)

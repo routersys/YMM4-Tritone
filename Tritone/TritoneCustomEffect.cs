@@ -3,7 +3,6 @@ using Vortice;
 using Vortice.Direct2D1;
 using YukkuriMovieMaker.Commons;
 using YukkuriMovieMaker.Player.Video;
-using YukkuriMovieMaker.Plugin.Community.Commons;
 
 namespace Tritone;
 
